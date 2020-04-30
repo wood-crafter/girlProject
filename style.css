@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+.topnav {
+    display: flex;
+    overflow: hidden;
+    height: 50px;
+    justify-items: center;
+}
+.home-link {
+    background-image: url("https://tx2.a.yximgs.com/upic/2019/12/06/22/BMjAxOTEyMDYyMjExMTJfMzc0MjM1ODA1XzIwMjQyMjQ5ODg3XzFfNg==_B0aa92981be2944ddfc35b8d5ed605738.jpg");
+    width: 85px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    border: 1px solid tomato;
+}
+.home-link:hover {
+    background-image: url("https://tx2.a.yximgs.com/upic/2019/12/06/22/BMjAxOTEyMDYyMjExMTJfMzc0MjM1ODA1XzIwMjQyMjQ5ODg3XzFfNg==_B0aa92981be2944ddfc35b8d5ed605738.jpg");
+    width: 85px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    border: 1px solid blue;
+}
+.following-link {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: large;
+    font-family: none;
+    color: black;
+    border: 1px solid tomato;
+}
+.following-link:hover {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: rgb(239, 239, 239);
+    border: 1px solid blue;
+}
+.topnav form {
+    flex-grow: 40;
+    height: 50px;
+    display: flex;
+    margin-left: 5px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+input {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid tomato;
+    outline: none;
+    padding: 15px;
+    font-size: large;
+    background-color: rgb(239, 239, 239);
+}
+input:hover {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid tomato;
+    outline: none;
+    padding: 15px;
+    font-size: large;
+    background-color: rgb(210, 210, 210);
+}
+/* TODO: input:hover  */
+input:focus {
+    border: 1px solid blue;
+}
+.topnav button {
+    flex-grow: 1;
+    background-color: tomato;
+    height: 50px;
+}
+.thumbnail:hover {
+    border: 1px solid tomato;
+}
+.display-pic {
+    display: none;
+    height: 100vh;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+.display-pic img:first-child{
+    width: 100%;
+}
